@@ -10,7 +10,7 @@ export default defineManifest(async (env) => ({
   name:
     env.mode === 'staging'
       ? '[INTERNAL] SideBuddy'
-      : 'SideBuddy - Power of ChatGPT on any website',
+      : 'SideBuddy - Power of Agent on any website',
   description:
     "SideBuddy is a browser extension that allows you to use Open AI's GPT in any website.",
   version: `${major}.${minor}.${patch}.${label}`,
