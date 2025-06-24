@@ -6,7 +6,7 @@ const WebPageContentToggle = () => {
   return (
     <div className="cdx-flex cdx-items-center cdx-justify-center cdx-gap-2 cdx-p-2 cdx-rounded">
       <label htmlFor="webpage-context" className="cdx-text-neutral-500">
-        Add page content
+        Nội dung trang web
       </label>
       <Switch.Root
         checked={settings.general.webpageContext}

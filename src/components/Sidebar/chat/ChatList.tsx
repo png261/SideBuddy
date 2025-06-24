@@ -67,10 +67,10 @@ const ChatList = ({
             width={300}
           />
           <h1 className="cdx-text-xl cdx-text-gray-500 dark:cdx-text-gray-400">
-            Start a new conversation 🎉
+            Bắt đầu cuộc trò chuyện 🎉
           </h1>
           <p className="cdx-text-gray-500 dark:cdx-text-gray-400 cdx-mt-1 cdx-leading-tight cdx-font-light">
-            Type your message at the bottom <br /> and press send button
+            Nhập câu hỏi của bạn và bấm gửi
           </p>
         </div>
       ) : (

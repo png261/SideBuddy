@@ -30,7 +30,7 @@ const ChatHistory = () => {
     <div>
       <DropdownMenu.Root>
         <DropdownMenu.Trigger className="cdx-flex cdx-items-center cdx-gap-1 cdx-text-neutral-500 dark:cdx-bg-neutral-900 cdx-bg-neutral-200 cdx-border cdx-rounded-md cdx-border-neutral-400/30 dark:cdx-border-neutral-500/30 cdx-py-1 cdx-px-3">
-          <RiTimeLine size={18} className="cdx-flex-shrink-0" /> History
+          <RiTimeLine size={18} className="cdx-flex-shrink-0" /> Lịch sử
         </DropdownMenu.Trigger>
         <DropdownMenu.Content
           side="top"
@@ -39,7 +39,7 @@ const ChatHistory = () => {
           <div>
             <div className="cdx-flex cdx-justify-between cdx-items-center cdx-p-3 cdx-border-b-[#E5E7EB] cdx-border-b dark:cdx-border-b-[#2F2F2F]">
               <h1 className="cdx-text-lg cdx-font-bold cdx-text-[#5A5A5A] dark:cdx-text-[#E3E3E3]">
-                History
+                Lịch sử
               </h1>
               <button
                 type="button"
@@ -47,7 +47,7 @@ const ChatHistory = () => {
                 onClick={handleCreateNewChat}
               >
                 <RiAddLine />
-                New Chat
+                Tạo mới
               </button>
             </div>
             <div className="cdx-max-h-96 cdx-overflow-y-auto">
